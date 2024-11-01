@@ -1,0 +1,51 @@
+{
+    "students": {
+        "001": {
+            "name": "Faiayz",
+            "age": 24,
+            "address": "Sydney",
+            "student_id": "001",
+            "grades": {
+                "PY02": "A"
+            },
+            "courses": [
+                "Digital Marketing",
+                "Python-Django",
+                "PY02",
+                "DM01"
+            ]
+        },
+        "002": {
+            "name": "Anika Nur",
+            "age": 19,
+            "address": "Tokyo",
+            "student_id": "002",
+            "grades": {
+                "DM01": "B"
+            },
+            "courses": [
+                "Digital Marketing",
+                "DM01"
+            ]
+        }
+    },
+    "courses": {
+        "PY02": {
+            "course_name": "Python-Django",
+            "course_code": "PY02",
+            "instructor": "Rabbil Hasan",
+            "students": [
+                "001"
+            ]
+        },
+        "DM01": {
+            "course_name": "Digital Marketing",
+            "course_code": "DM01",
+            "instructor": "Elon Musk",
+            "students": [
+                "002",
+                "001"
+            ]
+        }
+    }
+}
